@@ -4,5 +4,6 @@ Here is an example of using [eip712-codegen](https://www.npmjs.com/package/eip71
 
 To demonstrate, you can just `npm run generateTypes`.
 
-The `types.js` file will be used to generate `Types.sol`.
+
+The starting types are just a simple Bid, which has a `offer` property, which itself is a `TokenVector` struct! This allows you to see what it looks like to have a user sign a nested struct.
 
