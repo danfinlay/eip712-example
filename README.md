@@ -4,3 +4,5 @@ Here is an example of using [eip712-codegen](https://www.npmjs.com/package/eip71
 
 To demonstrate, you can just `npm run generateTypes`.
 
+The `types.js` file will be used to generate `Types.sol`.
+
